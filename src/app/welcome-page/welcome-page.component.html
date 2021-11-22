@@ -1,0 +1,15 @@
+
+<div class="welcomeDiv">
+    <div class="textDiv">
+        <h1>Greatest page ever!</h1>
+        <h3>This is only for a select few!</h3>
+        <p>psst... don't press the button. He will be maaad!</p>
+    </div>
+    <div class="buttonDiv">
+        <button (click)="btnClick()">Do not press!</button>
+    </div>
+</div>
+<div class="rawrDiv">
+    <p *ngIf="blnShowText">{{strMsg}}</p>
+    <img src="./assets/rawr.png" alt="" *ngIf="blnShowImage">
+</div>

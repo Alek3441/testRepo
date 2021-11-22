@@ -1,0 +1,30 @@
+h1{
+    color: blue;
+}
+h3{
+    color: blueviolet;
+}
+p{
+    color: firebrick;
+}
+button{
+    font-size: 16px;
+    border-radius: 12px;
+    background-color: forestgreen;
+    padding: 12px 28px;
+}
+.textDiv{
+    text-align: center;
+}
+.buttonDiv, .rawrDiv{
+    display: flex;
+    justify-content: center;
+}
+.welcomeDiv{
+    background-color: powderblue;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
